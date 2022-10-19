@@ -37,7 +37,7 @@ float tiempoy = 0;
 void setup() {
 
   Serial.begin(9600);
-  Serial.setTimeout(4000);
+  Serial.setTimeout(10000);
 
   pinMode(x_paso, OUTPUT); pinMode(x_dire, OUTPUT); pinMode(x_habi, OUTPUT);
   pinMode(y_paso, OUTPUT); pinMode(y_dire, OUTPUT); pinMode(y_habi, OUTPUT);
@@ -53,6 +53,8 @@ void setup() {
   Serial.println( " maceta 7" );
   Serial.println( " maceta 8" );
   Serial.println( " maceta 9" );
+  Serial.println( "A posicion a la que desea ir cordenada x  , y :" );
+  Serial.println( "B regar " );
 
 }
 
